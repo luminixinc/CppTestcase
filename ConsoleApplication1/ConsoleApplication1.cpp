@@ -4,7 +4,7 @@
 #include <iostream>
 #include "ArrayWrap.hpp"
 
-int main()
+int main(int argc, const char *argv[])
 {
     std::cout << "Check the console output for any assertion failure locations...\n";
 
@@ -45,6 +45,7 @@ int main()
     assert(node4._array == array);
     assert(node4._array.size() == 2);
 
+    return 0;
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu

@@ -1,1 +1,10 @@
+# Mac/Xcode
+.DS_Store
+xcuserdata
+
+# VS/Windows
+.vs
 *.vcxproj.user
+x64
+Debug
+Release
